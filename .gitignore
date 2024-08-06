@@ -1,6 +1,23 @@
+#Hardhat_gitignore
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+
+# Common files
 node_modules
 .env
-packages/*/.env
+
+# Frontend gitignore
 
 # IntelliJ project files
 *.iml
